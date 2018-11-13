@@ -138,11 +138,11 @@ const program = (() => {
   function date(x) {
     var t = new Date(x);
     d = t.getDate();
-    if(d<9) {
+    if(d<10) {
       d='0'+d;
     }
     m = (t.getMonth()+1);
-    if(m<9) {
+    if(m<10) {
       m='0'+m;
     }
     y = t.getFullYear();
